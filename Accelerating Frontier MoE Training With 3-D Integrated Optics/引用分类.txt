@@ -1,0 +1,99 @@
+《Accelerating Frontier MoE Training with 3D Integrated Optics》(HOTI 2025, arkiv.pdf) 参考文献分类
+====================================================================================================
+共 45 条参考文献，分为 6 类。分类视角：该文是一篇光互连厂商（Lightmatter）提出的系统架构论文，
+引用结构呈「MoE 应用层 + 系统层 + 硬件/光互连层 + 厂商资料」的倒金字塔形态。
+
+
+一、MoE 模型与训练算法（13 条）——支撑「为什么 MoE 需要更大 Scale-Up 域」
+----------------------------------------------------------------------------------------------------
+[1]  Shazeer et al., Outrageously Large Neural Networks (Sparsely-Gated MoE), 2017 —— MoE 开山之作
+[2]  Li et al., Speculative MoE: 通信高效的并行 MoE 推理, 2025
+[5]  Meta, Llama 4 发布博客, 2025
+[7]  Jiang et al., Mixtral of Experts, 2024
+[8]  He et al., Upcycling LLMs into MoE (NVIDIA), 2024
+[37] Tang et al., Pangu Ultra MoE: 昇腾 NPU 训练大 MoE, 2025
+[39] Fedus et al., Switch Transformers, 2022
+[40] Muennighoff et al., OLMoE, 2025
+[41] DeepSeek-AI, DeepSeek-V3 技术报告, 2025
+[42] Krajewski et al., 细粒度 MoE 扩展定律, 2024
+[43] Dai et al., DeepSeekMoE, 2024
+[44] Lepikhin et al., GShard, 2020
+[45] DeepSeek-AI, DeepSeek-V2, 2024
+▶ 特点：几乎全是 arXiv 预印本/技术报告，属「模型侧论据」，用于论证 MoE 专家并行通信占比高、
+  细粒度专家是趋势，从而引出对高带宽/高基数互连的需求。
+
+
+二、并行训练系统与性能建模（9 条）——方法论与对比基线
+----------------------------------------------------------------------------------------------------
+[3]  Vaswani et al., Attention Is All You Need, 2017/2023 —— Transformer 基础
+[4]  Dylan Patel, GPT-4 架构分析 (SemiAnalysis), 2023
+[6]  Shoeybi et al., Megatron-LM, 2020 —— TP/PP 并行范式
+[14] Patel et al., 华为 CloudMatrix 384 分析 (SemiAnalysis), 2025
+[32] Guo et al., 分布式 DNN 训练性能建模综述, IEEE TPDS 2024
+[33] Isaev et al., Calculon: 系统-模型协同设计工具, SC 2023
+[34] Hsia et al., MAD-Max: 跨节点大规模模型加速, ISCA 2024
+[35] He et al., FasterMoE, PPoPP 2022
+[38] Singh et al., 混合张量-专家-数据并行, ICS 2023
+▶ 特点：论文性能建模工具（解析模型+Hockney 通信模型）的方法论来源；[4][14] 是 SemiAnalysis
+  产业分析文章，用于描述商业系统的真实配置。
+
+
+三、高速互连电路与 SerDes（5 条）——电学侧功耗/速率论据
+----------------------------------------------------------------------------------------------------
+[15] Shivnaraine et al., 26.56–106.25 Gb/s XSR SerDes (1.55 pJ/b), ISSCC 2021
+[16] Guo et al., 112.5 Gb/s ADC-DSP PAM-4 长距收发机, ISSCC 2022
+[19] Khasraghi (Synopsys), Direct-Drive 电光接口文章, 2024
+[23] Tonietto, 有线通信能效极限 (SSCS Workshop), 2022
+[26] Pfaff et al., 224 Gb/s 3 pJ/bit 收发机, IEEE JSSC 2025
+▶ 特点：顶级电路会议/期刊论文，提供 SerDes 功耗（pJ/bit 量级）的权威数字，
+  支撑「电互连能效逼近物理极限、需转向光」的核心论证。
+
+
+四、光互连 / CPO 架构与标准（12 条）——本文技术背景
+----------------------------------------------------------------------------------------------------
+[9]  Foley & Danskin, Pascal GPU 与 NVLink, IEEE Micro 2017 —— Scale-Up 互连的先河
+[11] Jouppi et al., TPU v4 光重构超算, ISCA 2023 —— 光学 Scale-Up 最成功的先例
+[17] OIF, OFC 2024 CEI 互操作演示, 2024
+[18] Eoptolink 800G LPO 模块, 2024
+[20] Mehta (Broadcom), 光 attach AI ASIC (HotChips 2024)
+[21] Lee et al., Beyond CPO: 光学上硅中介层, JLT 2023 —— 与本文 3D 集成路线最接近的学术工作
+[24] Sharma, UCIe 芯粒互连标准, 2023
+[25] UALink 联盟规范, 2025
+[27] Bechtolsheim, Hot Interconnects 2024 主题演讲
+[28] Hisense, OIF 互操作演示, 2025
+[29] OSFP-XD 可插拔模块规范, 2023
+[30] Chow (Broadcom), 共封装光学 (SemiCon Taiwan), 2025
+▶ 特点：正文与本文直接竞争的技术路线（LPO/2D CPO/UCIe/UALink）的规格出处，
+  本文的对比参数（如 LPO 模块尺寸、CPO beachfront）多引自此类材料。
+
+
+五、厂商一手资料 / 灰色文献（5 条）——需谨慎对待的信源
+----------------------------------------------------------------------------------------------------
+[10] Naddod 博客: Silicon Photonics for AI, 2024 —— ★已收录于本 HACG 库（见同名文件夹）
+[12] NVIDIA GTC 2025 主题演讲, 2025
+[13] NVIDIA GTC 2024 主题演讲, 2024
+[22] Nick Harris, Lightmatter 自家产品发布会 (OFC 2025) —— ★自引（作者所在公司）
+[31] TSMC 新闻稿, 2020
+▶ 特点：不可同行评审，性能数字未经独立验证；其中 [22] 是自引（唯一一条），
+  用于支撑 Passage 平台的带宽密度路线图。
+
+
+六、经典理论（1 条）
+----------------------------------------------------------------------------------------------------
+[36] Hockney, MPP 通信挑战（α+βn 通信模型）, Parallel Computing 1994
+▶ 论文通信建模（Hockney 模型）的理论出处，45 条引用中唯一的 90 年代文献。
+
+
+====================================================================================================
+统计速览
+----------------------------------------------------------------------------------------------------
+· 按类型：同行评审论文（会议/期刊）14 条 ｜ arXiv 预印本/技术报告 14 条 ｜ 厂商资料/行业标准/灰色文献 17 条
+  （灰色文献包括 SemiAnalysis 分析、GTC 演讲、产品发布会、OIF/UALink/UCIe/OSFP-XD 规范、厂商博客等）
+· 按主题：MoE 模型 13 ｜ 系统与建模 9 ｜ 互连电路 5 ｜ 光互连与标准 12 ｜ 厂商资料 5 ｜ 理论 1
+· 自引：1 条（[22]，Lightmatter 自家发布会，占比 2.2%）
+· 与 HACG 库内文献重合（均已单独建文件夹归档）：
+  [10] Naddod 博客、[12] GTC 2025 Keynote、[14] SemiAnalysis 华为 CloudMatrix 分析、
+  [17] OIF CEI 演示白皮书、[18] Eoptolink 800G LPO 产品说明、[19] Synopsys 直驱接口文章、
+  [20] Broadcom HotChips 2024 演讲 —— 共 7 条
+· 阅读建议：论文的核心数字（8X 带宽、2.7X 训练加速）属厂商仿真结果，其论据强度排序为
+  第三类（ISSCC/JSSC 电路数据）> 第四类（标准与规格）> 第五类（厂商声称），引用时宜交叉验证。

@@ -10,3 +10,17 @@
   doi={10.1109/MM.2026.3682935},
   note={Lightmatter. Open access}
 }
+会议版本引用（HOTI 2025，与期刊扩展版对应）：
+
+@inproceedings{Bernadskiy_2025,
+  title={Accelerating Frontier MoE Training with 3D Integrated Optics},
+  author={Bernadskiy, Mikhail and Carson, Peter and Graham, Thomas and Groves, Taylor and Lee, Ho John and Yeh, Eric},
+  booktitle={2025 IEEE Symposium on High-Performance Interconnects (HOTI)},
+  pages={25--35},
+  year={2025}, month=Aug,
+  publisher={IEEE},
+  doi={10.1109/HOTI66940.2025.00021}
+}
+
+附注：本文件夹内的 HOTI2025 PDF 为作者团队在 Hot Interconnects 2025 会议上的官方演示文稿
+（Lightmatter 官网公开版本，28 页）；IEEE Xplore 上的分页正式版为付费获取。

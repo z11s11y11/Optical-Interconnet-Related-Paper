@@ -1,0 +1,9 @@
+本文档为厂商产品说明，非学术论文，无 Google Scholar 学术引用。
+以下为它在 Bernadskiy et al. (HOTI 2025) 参考文献 [18] 中的引用格式（IEEE 风格）：
+
+[18] Eoptolink, "Eoptolink's 800G Linear-drive Pluggable Optics (LPO) transceiver," 2024.
+
+来源信息:
+- 厂商: Eoptolink (新易盛)
+- 原文: https://www.oiforum.com/wp-content/uploads/OIF_PLL_Demo_Eoptolink_OFC2024.pdf
+- 内容: OIF 线性直驱可插拔光学 (PLL) 演示中 Eoptolink 800G LPO 收发器产品说明（1 页）

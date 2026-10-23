@@ -1,0 +1,9 @@
+本文档为厂商技术博客，非学术论文，无 Google Scholar 学术引用。
+以下为它在 Bernadskiy et al. (HOTI 2025) 参考文献 [10] 中的引用格式（IEEE 风格）：
+
+[10] Naddod.com, "Silicon Photonics for AI - Balancing Cost, Power, and Reliability,"
+     Naddod, 2024. [Online]. Available:
+     https://www.naddod.com/blog/silicon-photonics-for-ai-balancing-cost-power-and-reliability
+
+引用它的论文: Accelerating Frontier MoE Training with 3D Integrated Optics (HOTI 2025 / IEEE Micro 2026)
+作者信息: 署名 Holly, NADDOD Technology Inc.（纳多德，武汉），发布于 2024-09-06
