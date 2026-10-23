@@ -1,0 +1,8 @@
+本文档为新闻报道，非学术论文，无 Google Scholar 学术引用。
+
+标题: 2026开放计算技术大会：阿里云发布磐久 UMX 统一内存/存储扩展架构
+来源: 中国日报网（tech.chinadaily.com.cn）
+日期: 2026年7月14日
+原文: https://tech.chinadaily.com.cn/a/202607/14/WS6a55e9daa310d709c2fbd71a.html
+内容: 介绍 Agentic AI 时代算力基础设施四大趋势，重点报道阿里云磐久 UMX 架构
+（UALink/CXL 双总线、纳秒级延迟分层内存、SNPO 光互连模块）。

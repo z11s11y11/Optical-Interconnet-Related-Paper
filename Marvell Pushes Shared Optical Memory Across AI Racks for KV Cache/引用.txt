@@ -1,0 +1,8 @@
+本文档为新闻报道，非学术论文，无 Google Scholar 学术引用。
+
+标题: Marvell Pushes Shared Optical Memory Across AI Racks for KV Cache
+来源: Converge Digest（Optical 栏目）
+日期: 2026年8月22日
+原文: https://convergedigest.com/marvell-photonic-fabric-shared-memory-kv-cache-ai/
+内容: Marvell 在 Hot Interconnects 2026 上介绍 Photonic Fabric Memory Appliance (PFMA)，
+通过光互连在 16 台服务器间共享最高 32 TB DDR5 内存，用作跨节点 KV Cache。

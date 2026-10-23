@@ -1,0 +1,11 @@
+学术引用（BibTeX，来自 DOI/Crossref 官方数据，与 Google Scholar 导出格式一致）：
+
+@inproceedings{Cho_2024,
+  title={CoAXIAL: A CXL-Centric Memory System for Scalable Servers},
+  author={Cho, Albert and Saxena, Anish and Qureshi, Moinuddin and Daglis, Alexandros},
+  booktitle={SC24: International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages={1--15},
+  year={2024}, month=Nov,
+  publisher={IEEE},
+  doi={10.1109/SC41406.2024.00101}
+}

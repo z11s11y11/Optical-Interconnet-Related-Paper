@@ -1,0 +1,6 @@
+本文档为会议演讲资料，非学术论文，无 Google Scholar 学术引用。
+
+标题: Smashing Memory & I/O Limits: Architectures for the GenAI Era
+演讲者: Ramin Farjadrad（Eliyan 公司）
+场合: 2025 OCP Global Summit（Open Chiplet Economy 分论坛）
+链接: https://www.opencompute.org/events/ocp-summit/2025-ocp-global-summit/

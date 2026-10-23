@@ -1,0 +1,7 @@
+本文档为 MICRO 2026 匿名投稿草稿（Submission #2250，系统名为 Halo），尚未公开发表，
+因此在 Google Scholar 上暂无学术引用信息。
+
+标题: Beyond Linear Scaling for LLM Training on Wafer-Scale GPUs
+会议: IEEE/ACM International Symposium on Microarchitecture (MICRO) 2026 投稿
+内容: 提出 Halo 硬件-软件协同设计框架，通过 SM-direct 远程加载实现跨 die 的 L2 共享，
+打破分布式执行下的 L2 隔离，使晶圆级 GPU 获得超越线性（beyond-linear）的性能扩展。

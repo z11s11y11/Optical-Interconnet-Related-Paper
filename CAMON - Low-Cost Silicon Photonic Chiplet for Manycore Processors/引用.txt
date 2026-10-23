@@ -1,0 +1,11 @@
+学术引用（BibTeX，来自 DOI/Crossref 官方数据，与 Google Scholar 导出格式一致）：
+
+@article{Wang_2020,
+  title={CAMON: Low-Cost Silicon Photonic Chiplet for Manycore Processors},
+  author={Wang, Zhehui and Wang, Zhifei and Xu, Jiang and Chang, Yi-Shing and Feng, Jun and Chen, Xuanqi and Chen, Shixi and Zhang, Jiaxu},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  volume={39}, number={9}, pages={1820--1833},
+  year={2020}, month=Sept,
+  publisher={IEEE},
+  doi={10.1109/TCAD.2019.2926495}
+}

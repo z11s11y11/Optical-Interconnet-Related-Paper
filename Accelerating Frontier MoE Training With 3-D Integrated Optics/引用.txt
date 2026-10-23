@@ -1,0 +1,12 @@
+学术引用（BibTeX，来自 DOI/Crossref 官方数据，与 Google Scholar 导出格式一致）：
+
+@article{Bernadskiy_2026,
+  title={Accelerating Frontier MoE Training With 3-D Integrated Optics},
+  author={Bernadskiy, Mikhail and Carson, Peter and Graham, Thomas and Groves, Taylor and Lee, Ho John and Yeh, Eric},
+  journal={IEEE Micro},
+  volume={46}, number={4}, pages={75--84},
+  year={2026}, month=July,
+  publisher={IEEE},
+  doi={10.1109/MM.2026.3682935},
+  note={Lightmatter. Open access}
+}
